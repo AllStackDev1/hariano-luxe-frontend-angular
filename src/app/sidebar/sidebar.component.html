@@ -1,0 +1,62 @@
+<nav class="navbar-default navbar-side not-login" role="navigation">
+  <div class="sidebar-collapse">
+    <ul class="nav" id="main-menu">
+      <li>
+        <a routerLinkActive="active-menu" [routerLink]="['dashboard']"><i class="fa fa-dashboard" aria-hidden="true"></i> Dashboard</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i><span class="cog-user"><i class="fa fa-cogs" aria-hidden="true"></i></span> Manage Users<span class="fa arrow"></span></a>
+        <ul class="nav nav-second-level">
+          <li>
+            <a routerLinkActive="active-menu" [routerLink]="['admin-manager']">Admin Manager<span class="fa arrow"></span></a>
+            <ul class="nav nav-third-level">
+              <li>
+                <a href="#">Create New Admin</a>
+              </li>
+              <li>
+                <a href="#">Admin Table</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a routerLinkActive="active-menu" [routerLink]="['users-manager']">Portal User Manager<span class="fa arrow"></span></a>
+            <ul class="nav nav-third-level">
+              <li>
+                <a href="#">Create New User</a>
+              </li>
+              <li>
+                <a href="#">User Table</a>
+              </li>
+              <li>
+                <a href="#">Query Data</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-product-hunt" aria-hidden="true"></i><span class="cog-user"><i class="fa fa-cogs" aria-hidden="true"></i></span> Manage Products<span class="fa arrow"></span></a>
+        <ul class="nav nav-second-level">
+          <li>
+            <a routerLinkActive="active-menu" [routerLink]="['add-product']">Add Product<span class="fa arrow"></span></a>
+          </li>
+          <li>
+            <a routerLinkActive="active-menu" [routerLink]="['view-products']">View Products<span class="fa arrow"></span></a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="cog-user"><i class="fa fa-cogs" aria-hidden="true"></i></span> Manage Orders<span class="fa arrow"></span></a>
+        <ul class="nav nav-second-level">
+          <li>
+            <a routerLinkActive="active-menu" [routerLink]="['edit-order']">Edit Order<span class="fa arrow"></span></a>
+          </li>
+          <li>
+            <a routerLinkActive="active-menu" [routerLink]="['view-orders']">View Order<span class="fa arrow"></span></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- /. NAV SIDE  -->

@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "assets/css/bootstrap.css";
+@import 'assets/css/font-awesome.css';
+@import 'assets/js/morris/morris.min.css';
+@import 'assets/css/custom-styles.css';
+@import 'assets/css/login.css';
+@import 'assets/css/util.css';
